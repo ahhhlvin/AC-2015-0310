@@ -1,5 +1,3 @@
-package nyc.c4q.ahhhlvin;
-
 import java.util.Scanner;
 
 public class Main {

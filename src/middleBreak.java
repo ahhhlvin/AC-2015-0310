@@ -1,5 +1,3 @@
-package nyc.c4q.ahhhlvin;
-
 /**
  * Created by alvin2 on 3/10/15.
  * Alvin Kuang
