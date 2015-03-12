@@ -59,8 +59,8 @@ public class Play {
                 answer2 += 1;
             } else if (number.charAt(i) == 'I' && (number.charAt(i + 1) != 'V' || number.charAt(i + 1) != 'X')) {
                 answer2 += 1;
-            } else (number.charAt(i) != 'M' || number.charAt(i) != 'C' || number.charAt(i) != 'D' || number.charAt(i) != 'X' || number.charAt(i) != 'L' || number.charAt(i) != 'V' || number.charAt(i) != 'I') {
-                return -1;
+            } else if (number.charAt(i) != 'M' || number.charAt(i) != 'C' || number.charAt(i) != 'D' || number.charAt(i) != 'X' || number.charAt(i) != 'L' || number.charAt(i) != 'V' || number.charAt(i) != 'I') {
+               //return -1;
             }
         }
 

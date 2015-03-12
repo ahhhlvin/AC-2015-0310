@@ -14,22 +14,23 @@ public class FizzBuzz {
 
         for (i = 1; i <= 100; i++) {
 
-            if (i % 3 == 0) continue; {
+            if (i % 3 == 0) {
                 System.out.println("Fizz");
-            } if(i % 5 == 0) continue; {
-                System.out.println("Buzz");
-            } if(i % 15 == 0) continue; {
-                System.out.println("FizzBuzz");
             }
+            if (i % 5 == 0) {
+                System.out.println("Buzz");
+            }
+            if (i % 15 == 0) {
+                System.out.println("FizzBuzz");
+            } else {
                 System.out.println(i);
+
+
+            }
 
 
         }
 
 
-
     }
-
-
-
 }
