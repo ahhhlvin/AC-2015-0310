@@ -18,6 +18,8 @@ public class FizzBuzz {
                 System.out.println("Fizz");
             } if(i % 5 == 0) continue; {
                 System.out.println("Buzz");
+            } if(i % 15 == 0) continue; {
+                System.out.println("FizzBuzz");
             }
                 System.out.println(i);
 
